@@ -1,0 +1,13 @@
+{
+  "name": "Chrome Extension",
+  "description": "Description",
+  "version": "1.0.0",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  // "icons": {
+  //   "128": "icon-128.png"
+  // },
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
