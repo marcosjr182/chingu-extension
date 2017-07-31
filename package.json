@@ -1,7 +1,7 @@
 {
-  "name": "chingu-extension",
+  "name": "JobTab",
   "version": "1.0.0",
-  "description": "Chrome extension",
+  "description": "Get the latest offers for jobs in your area",
   "main": "src/app.js",
   "license": "MIT",
   "devDependencies": {
@@ -9,7 +9,10 @@
     "babel-loader": "^7.1.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "2.1.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
     "webpack": "^3.3.0",
     "webpack-dev-server": "^2.6.1"
   },
@@ -18,7 +21,6 @@
   },
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --hot --inline --progress",
-    "build": "webpack -p --config webpack.config.js"
-
+    "build": "webpack -p --config webpack.config.js --hide-modules"
   }
 }
