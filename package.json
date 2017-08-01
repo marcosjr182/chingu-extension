@@ -17,7 +17,8 @@
     "webpack-dev-server": "^2.6.1"
   },
   "dependencies": {
-    "extract-text-webpack-plugin": "2.1.2"
+    "extract-text-webpack-plugin": "2.1.2",
+    "normalize.css": "^7.0.0"
   },
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --hot --inline --progress",
