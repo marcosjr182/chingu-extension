@@ -13,7 +13,8 @@ module.exports = {
   },
   devServer: {
     contentBase: path.resolve(__dirname, './dist'),
-    port: '4200'
+    port: '4200',
+    stats: 'errors-only'
   },
   module: {
     rules: [
@@ -22,7 +23,7 @@ module.exports = {
         exclude: [/node_modules/],
         use: [{
           loader: 'babel-loader',
-          options: { presets: ['es2015', 'stage-0'] },
+          options: { presets: ['es2015', 'stage-0', 'react'] },
         }],
       },
       {
