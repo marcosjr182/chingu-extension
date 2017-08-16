@@ -5,10 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JobTab</title>
     <link rel="stylesheet" type="text/css" href="/assets/main.bundle.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
   </head>
   <body>
-    <div id="root"></div>
-
+  <div id="root"></div>
+    <div class="row general">
+      <div class="column-left col s12 m8 l9 grey lighten-3">
+        <div class="row">
+          <div class="quote-area col s12 l8 m11 offset-l2 center">
+            <div class="quote-area__tag center">#Daily Quote</div>
+            <div class="quote-area__dayquote">
+              <i class="fa fa-quote-left cyan-text text-darken-1" aria-hidden="true"></i>
+              <span class="quote-area__dayquote-text"> You are the only person with your exact blend of talents and skills.</span>
+            </div>
+            <div class="quote-area__twitter-button center">
+              <a href="">
+                <i class="fa fa-twitter cyan-text text-darken-1" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="clock center">
+          <div class="clock__time">
+            <i class="fa fa-clock-o cyan-text text-darken-1" aria-hidden="true"></i>
+            <span class="clock__hours">03:47<span class="clock--format">PM</span> </span>
+          </div>
+        </div>
+        <div class="share-extension center">
+          <div class="share-extension__button">
+            <a href="#">
+              <img src="https://raw.githubusercontent.com/diemano/chingu-extension/master/src/turtle.png">
+            </a>
+          </div>
+          <div class="share-extension__label">share this </br>extension</div>
+        </div>
+      </div>
+      <div class="column-right col s12 m4 l3 grey-text text-lighten-3 blue-grey darken-4">
+        <div class="logo center">TabJob</div>
+        <div class="search">
+          <input class="icon search-input" placeholder="&#61442;"/>
+        </div>
+        <div class="filter center">Filter by:
+          <a href="" class="filter-link">today</a>  |
+          <a href="" class="filter-link">this week</a>  |
+          <a href="" class="filter-link">this month</a>
+        </div>
+        <div class="jobs">
+          <ul id="nav-mobile" class="jobs-header row">
+            <li class="jobs-header__element col s2 m2 l2"><a href="">Site
+              <i class="fa fa-sort-desc align-vertical" aria-hidden="true"></i></a>
+            </li>
+            <li class="jobs-header__element col s7 m7 l7"><a href="">Job
+              <i class="fa fa-sort-desc align-vertical" aria-hidden="true"></i></a>
+            </li>
+            <li class="jobs-header__element col s3 m3 l3"><a href="">Date
+              <i class="fa fa-sort-desc align-vertical" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+          <ul id="nav-jobs" class="jobs-item row">
+            <li class="jobs-item__company col s2 m2 l2 center">toptotal</li>
+            <li class="jobs-item__job col s7 m7 l7">Web Developer</li>
+            <li class="jobs-item__date col s3 m3 l3">jul, 26</li>
+          </ul>
+          <ul id="nav-jobs2" class="jobs-item row">
+            <li class="jobs-item__company col s2 m2 l2 center">toptotal</li>
+            <li class="jobs-item__job col s7 m7 l7">FrontEnd Developer</li>
+            <li class="jobs-item__date col s3 m3 l3">jul, 26</li>
+          </ul>
+          <div class="jobs-more center"><a href="#"> MORE
+            <i class="fa fa-sort-desc align-vertical" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="page-theme center">
+          <ul class="page-theme__items">
+            <li class="page-theme__item">
+              <i class="fa fa-paint-brush" aria-hidden="true"></i>
+            </li>
+            <li class="page-theme__item">
+              <a href="#">
+              <img src="https://raw.githubusercontent.com/diemano/chingu-extension/master/src/theme-1-blue.png">
+              </a>
+            </li>
+            <li class="page-theme__item">
+              <a href="#">
+              <img src="https://raw.githubusercontent.com/diemano/chingu-extension/master/src/theme-2-yellow.png">
+              </a>
+            </li>
+            <li class="page-theme__item">
+              <a href="#">
+              <img src="https://raw.githubusercontent.com/diemano/chingu-extension/master/src/theme-3-red.png">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <footer class="footer center">
+            developed by <a href="#"> Turtle Team 28</a>
+        </footer>
+      </div>
+    </div>
+    <script src="https://use.fontawesome.com/83b902f82e.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
     <script src="/assets/app.bundle.js"></script>
   </body>
 </html>
