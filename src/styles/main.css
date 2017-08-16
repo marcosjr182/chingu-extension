@@ -129,7 +129,7 @@ input.icon::-ms-input-placeholder {
 
 .jobs-item__company {
   display: inline;
-  font-size: 0.57em;
+  font-size: 0.67em;
   color: #00acc1;
   border: 1px solid #00acc1;
   padding: 2px !important;
