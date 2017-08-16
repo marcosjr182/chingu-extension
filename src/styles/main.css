@@ -1,0 +1,175 @@
+@import url(~normalize.css);
+.general {
+  color: #263238;
+  min-height: 100vh !important;
+  margin-bottom: 0 !important;
+  font-weight: 300; }
+
+.column-left {
+  min-height: 100vh !important; }
+
+.column-right {
+  min-height: 100vh !important;
+  padding: 0px !important; }
+
+.center {
+  margin: 0 auto; }
+
+.quote-area {
+  margin-top: 10%; }
+
+.quote-area__tag {
+  border: 2px solid #00acc1;
+  padding: 5px;
+  width: 125px;
+  font-weight: 300;
+  font-size: 16px; }
+
+.quote-area__dayquote {
+  font-size: 1.87em;
+  font-weight: 300;
+  padding-top: 40px; }
+
+.quote-area__twitter-button {
+  font-size: 1.47em;
+  padding-top: 10px; }
+
+.clock {
+  font-size: 3.3em;
+  padding-top: 20px; }
+
+.clock__hours {
+  font-weight: 200; }
+
+.clock--format {
+  vertical-align: 1.7em;
+  font-size: 0.3em; }
+
+.share-extension {
+  margin-top: 50px;
+  margin-bottom: 30px; }
+
+.share-extension__label {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-top: -5px; }
+
+.logo {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  padding: 5px;
+  border: 1px solid #fff;
+  font-weight: 200;
+  width: 120px;
+  text-align: center;
+  margin-top: 40px; }
+
+.search {
+  margin-top: 3em;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: 'arial', sans-serif; }
+
+.search-input {
+  font-size: 0.94em;
+  font-weight: 200;
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  height: 2em !important;
+  padding: 1% 1% 1% 5% !important;
+  width: 95% !important;
+  font-family: Roboto !important; }
+
+input.icon {
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.5); }
+
+input.icon::-webkit-input-placeholder {
+  font-family: 'FontAwesome';
+  color: rgba(255, 255, 255, 0.5); }
+
+input.icon::-moz-placeholder {
+  font-family: 'FontAwesome';
+  color: rgba(255, 255, 255, 0.5); }
+
+input.icon::-ms-input-placeholder {
+  font-family: 'FontAwesome';
+  color: rgba(255, 255, 255, 0.5); }
+
+.filter {
+  font-size: 0.8em;
+  font-weight: 200; }
+
+.filter-link {
+  text-decoration: none;
+  color: #eeeeee; }
+
+.jobs {
+  margin-top: 0px; }
+
+.jobs-header {
+  text-transform: uppercase;
+  font-size: 0.8em; }
+
+.jobs-header__element {
+  display: inline; }
+
+.jobs-header__element a {
+  text-decoration: none;
+  color: #eee; }
+
+.jobs-item {
+  font-size: 0.94em;
+  padding: 10px !important;
+  margin: 0 !important; }
+
+.jobs-item:hover {
+  background-color: rgba(255, 255, 255, 0.05); }
+
+.jobs-item__company {
+  display: inline;
+  font-size: 0.57em;
+  color: #00acc1;
+  border: 1px solid #00acc1;
+  padding: 2px !important;
+  text-transform: uppercase; }
+
+.jobs-item__job {
+  display: inline; }
+
+.jobs-item__date {
+  display: inline; }
+
+.jobs-more {
+  font-size: 0.75em;
+  color: rgba(238, 238, 238, 0.5);
+  margin-top: 20px; }
+
+.jobs-more a {
+  color: rgba(238, 238, 238, 0.5);
+  text-decoration: none; }
+
+.align-vertical {
+  vertical-align: 0.2em; }
+
+.page-theme {
+  font-size: 1.25em;
+  color: rgba(238, 238, 238, 0.5);
+  margin-top: 40px; }
+
+.page-theme__item {
+  display: inline; }
+
+.footer {
+  font-size: 0.75em;
+  color: rgba(238, 238, 238, 0.5);
+  margin-top: 70px;
+  padding-bottom: 40px; }
+
+.footer a {
+  color: rgba(238, 238, 238, 0.5);
+  text-decoration: none;
+  font-weight: 500; }
+
+/*# sourceMappingURL=main.css.map */

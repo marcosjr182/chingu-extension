@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 class App extends Component {
   render () {
-    return <h1>React is alive!</h1>
+    return
   }
 }
 
